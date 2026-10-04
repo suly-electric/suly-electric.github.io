@@ -3,109 +3,103 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#21505a">
+  <meta name="theme-color" content="#17454b">
   <meta name="description" content="Suly Electric solar PV design and implementation: load calculation, design, documentation, installation and system configuration for on-grid and hybrid applications.">
   <meta property="og:title" content="Suly Electric | Solar PV Design &amp; Implementation">
   <meta property="og:description" content="Solar PV design, engineering documentation and project implementation by Suly Electric.">
   <meta property="og:type" content="website">
   <title>Suly Electric | Solar PV Design &amp; Implementation</title>
   <link rel="icon" href="assets/favicon.png" type="image/png">
-  <link rel="stylesheet" href="styles.css?v=20261004-4">
-  <script src="script.js?v=20261004-4" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261004-5">
+  <script src="script.js?v=20261004-5" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
   <header class="site-header" id="top">
     <div class="header-inner">
       <a class="brand" href="#top" aria-label="Suly Electric home">
         <img src="assets/images/suly-electric-logo.webp" alt="Suly Electric" width="534" height="235">
-        <span class="brand-description">Solar PV design &amp; implementation</span>
+        <span class="brand-description">Solar PV design<br>&amp; implementation</span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
         <span class="menu-icon" aria-hidden="true"><span></span><span></span></span><span class="menu-label">Menu</span>
       </button>
       <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
-        <a href="#services">Services</a>
         <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
         <a href="#process">Workflow</a>
         <a href="#engineering">Engineering</a>
         <a href="#about">About</a>
         <a class="nav-contact" href="#contact">Contact</a>
       </nav>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode"><span class="theme-toggle-icon" aria-hidden="true">☾</span><span class="theme-toggle-label">Dark mode</span></button>
-      </div>
+    </div>
   </header>
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-inner page-width">
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+      <div class="page-width hero-layout">
         <div class="hero-copy">
-          <p class="eyebrow">Solar PV design &amp; implementation</p>
-          <h1 id="hero-heading">Solar PV design &amp; implementation</h1>
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Suly Electric · Solar PV</p>
+          <h1 id="hero-heading">Solar PV<br><span>design &amp; implementation</span></h1>
           <p class="hero-text">Practical load calculation, design, documentation, implementation and system configuration for on-grid and hybrid solar PV applications.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View project portfolio</a>
-            <a class="button button-outline" href="tel:7733999682">Call 773 399 9682</a>
+            <a class="button button-primary" href="#projects">Explore project portfolio <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="tel:7733999682">Call 773 399 9682</a>
           </div>
           <p class="hero-supporting">Work is carried out under the supervision of qualified engineers, ensuring proper design, installation, commissioning and system configuration.</p>
+          <div class="hero-capabilities" aria-label="Company capabilities">
+            <span>On-grid systems</span><span>Hybrid applications</span><span>Engineering documentation</span>
+          </div>
         </div>
-        <figure class="hero-photo">
-          <img src="assets/images/hero-installation.webp" alt="Solar PV installation shown in the Suly Electric portfolio" fetchpriority="high">
-          <figcaption>Solar PV installation</figcaption>
-        </figure>
+        <div class="hero-visual">
+          <div class="hero-visual-index" aria-hidden="true"><span>01</span><i></i><span>FIELD WORK</span></div>
+          <figure class="hero-photo">
+            <img src="assets/images/hero-installation.webp" alt="Solar PV installation shown in the Suly Electric portfolio" fetchpriority="high">
+            <figcaption><span class="caption-mark" aria-hidden="true"></span><span>Solar PV installation</span></figcaption>
+          </figure>
+          <div class="hero-photo-note"><span class="note-orbit" aria-hidden="true">S</span><span><strong>Design to implementation</strong><small>Solar PV project work</small></span></div>
+        </div>
       </div>
+      <a class="hero-scroll" href="#projects"><span>Scroll to explore</span><span class="scroll-line" aria-hidden="true"></span></a>
     </section>
 
-    <nav class="quick-links" aria-label="On this page">
-      <div class="page-width quick-links-inner">
-        <span>On this page</span>
-        <a href="#services">Services</a>
-        <a href="#projects">Project directory</a>
-        <a href="#process">Workflow</a>
-        <a href="#engineering">Design samples</a>
-        <a href="#contact">Contact</a>
+    <nav class="section-rail" aria-label="On this page">
+      <div class="page-width section-rail-inner">
+        <span class="rail-label">Explore</span>
+        <a href="#projects">Project portfolio</a><i aria-hidden="true"></i>
+        <a href="#services">Services</a><i aria-hidden="true"></i>
+        <a href="#process">Workflow</a><i aria-hidden="true"></i>
+        <a href="#engineering">Engineering samples</a>
       </div>
     </nav>
 
-    <section class="section section-white" id="services" aria-labelledby="services-heading">
-      <div class="page-width">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">Services &amp; technical capabilities</p>
-            <h2 id="services-heading">Solar PV design and implementation services</h2>
-          </div>
-          <p class="section-intro">Engineering expertise, field experience and professional technical documentation.</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card"><span class="service-number">01</span><h3>Solar PV design</h3><p>PV layout and system planning for on-grid applications.</p></article>
-          <article class="service-card"><span class="service-number">02</span><h3>Mechanical structure design</h3><p>AutoCAD-based drawings for solar-panel support structures.</p></article>
-          <article class="service-card"><span class="service-number">03</span><h3>3D modeling</h3><p>SketchUp models to communicate structure and installation concepts.</p></article>
-          <article class="service-card"><span class="service-number">04</span><h3>BOQ preparation</h3><p>Project quantity documentation for procurement and planning.</p></article>
-          <article class="service-card"><span class="service-number">05</span><h3>Implementation</h3><p>Practical delivery of solar PV projects documented in the portfolio.</p></article>
-          <article class="service-card"><span class="service-number">06</span><h3>System configuration</h3><p>Configuration work supporting functional PV system deployment.</p></article>
-        </div>
-      </div>
-    </section>
-
     <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
       <div class="page-width">
-        <div class="section-header project-section-header">
+        <div class="section-heading project-heading">
           <div>
-            <p class="eyebrow">Portfolio</p>
-            <h2 id="projects-heading">Project directory</h2>
+            <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Selected project work</p>
+            <h2 id="projects-heading">Project portfolio<span class="heading-period">.</span></h2>
           </div>
-          <p class="section-intro">Search by location, capacity or type. Use <strong>View photos</strong> to enlarge a project image, or <strong>Project info</strong> to open its gallery and notes.</p>
+          <div class="project-intro"><p>Browse the projects and engineering example shown in the company profile. Search by location, capacity or type; open <strong>Project info</strong> for photographs and notes.</p><span class="portfolio-index"><b>07</b><small>PORTFOLIO<br>ENTRIES</small></span></div>
         </div>
 
         <div class="directory-tools">
-          <label class="search-label" for="project-search">Search projects</label>
+          <label class="search-label" for="project-search">Search the portfolio</label>
           <div class="search-row">
-            <div class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Location, capacity or type" autocomplete="off"><button class="clear-search" id="clear-search" type="button" hidden>Clear</button></div>
+            <div class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Try a location, capacity or project type" autocomplete="off"><button class="clear-search" id="clear-search" type="button" hidden>Clear</button></div>
           </div>
           <div class="filter-area">
-            <span class="filter-label">Project type</span>
+            <span class="filter-label">Filter by system</span>
             <div class="filter-list" role="group" aria-label="Filter projects by type">
-              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All projects</button>
               <button class="filter-button" type="button" data-filter="on-grid" aria-pressed="false">On-grid</button>
               <button class="filter-button" type="button" data-filter="hybrid" aria-pressed="false">Hybrid</button>
               <button class="filter-button" type="button" data-filter="engineering" aria-pressed="false">Engineering sample</button>
@@ -115,154 +109,143 @@
         </div>
 
         <div class="project-grid" id="project-grid">
-          <article class="project-card" data-category="on-grid" data-search="sulaimane height 11 kw 11kw on grid rooftop solar pv inverter electrical installation array layout">
+          <article class="project-card project-featured" data-category="on-grid" data-search="sulaimane height 11 kw 11kw on grid rooftop solar pv inverter electrical installation array layout">
             <figure class="project-cover"><img src="assets/images/11kw-array.webp" alt="Solar PV array for an 11 kW on-grid project at Sulaimane Height" loading="lazy"><figcaption><span class="project-tag">On-grid</span><span class="capacity">11 kW</span></figcaption></figure>
             <div class="project-body"><p class="project-location">Sulaimane Height</p><h3>Solar PV system</h3><p class="project-summary">On-grid · 11 kW</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Sulaimane Height project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project photographs and notes</summary><p class="detail-note">The profile shows the PV array, rooftop arrangement, production graph, inverter and electrical installation.</p><div class="photo-gallery"><figure><img src="assets/images/11kw-rooftop.webp" alt="Rooftop PV arrangement at Sulaimane Height" loading="lazy"><figcaption>Rooftop PV arrangement</figcaption></figure><figure><img src="assets/images/11kw-inverter.webp" alt="Inverter and electrical installation at Sulaimane Height" loading="lazy"><figcaption>Inverter and electrical installation</figcaption></figure></div></details>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Sulaimane Height project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-11kw">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-11kw"><summary>Project photographs and notes</summary><p class="detail-note">The profile shows the PV array, rooftop arrangement, production graph, inverter and electrical installation.</p><div class="photo-gallery"><figure><img src="assets/images/11kw-rooftop.webp" alt="Rooftop PV arrangement at Sulaimane Height" loading="lazy"><figcaption>Rooftop PV arrangement</figcaption></figure><figure><img src="assets/images/11kw-inverter.webp" alt="Inverter and electrical installation at Sulaimane Height" loading="lazy"><figcaption>Inverter and electrical installation</figcaption></figure></div></details>
             </div>
           </article>
 
           <article class="project-card" data-category="on-grid" data-search="sulaimane height 7.5 kw 7kw 7.5kw on grid solar mechanical drawing 3d structure inverter pv array">
             <figure class="project-cover"><img src="assets/images/7-5kw-array.webp" alt="PV array shown for the Sulaimane Height project" loading="lazy"><figcaption><span class="project-tag">On-grid</span><span class="capacity">7.5 kW*</span></figcaption></figure>
-            <div class="project-body"><p class="project-location">Sulaimane Height</p><h3>PV array and structural design</h3><p class="project-summary">On-grid · 7.5 kW in project heading</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Sulaimane Height project photos and drawings">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project photographs and notes</summary><p class="detail-note">Source profile: the project heading says 7.5 kW; the subtitle says 7 kW.</p><div class="photo-gallery"><figure><img src="assets/images/7-5kw-mechanical.webp" alt="Mechanical drawing for the solar support structure" loading="lazy"><figcaption>Mechanical drawing</figcaption></figure><figure><img src="assets/images/7-5kw-3d.webp" alt="3D visualization of the solar support structure" loading="lazy"><figcaption>3D visualization</figcaption></figure><figure><img src="assets/images/7-5kw-inverter.webp" alt="Inverter installation" loading="lazy"><figcaption>Inverter installation</figcaption></figure></div></details>
+            <div class="project-body"><p class="project-location">Sulaimane Height</p><h3>PV array &amp; structural design</h3><p class="project-summary">On-grid · 7.5 kW in project heading</p>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Sulaimane Height project photos and drawings">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-75kw">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-75kw"><summary>Project photographs and notes</summary><p class="detail-note">Source profile: the project heading says 7.5 kW; the subtitle says 7 kW.</p><div class="photo-gallery"><figure><img src="assets/images/7-5kw-mechanical.webp" alt="Mechanical drawing for the solar support structure" loading="lazy"><figcaption>Mechanical drawing</figcaption></figure><figure><img src="assets/images/7-5kw-3d.webp" alt="3D visualization of the solar support structure" loading="lazy"><figcaption>3D visualization</figcaption></figure><figure><img src="assets/images/7-5kw-inverter.webp" alt="Inverter installation" loading="lazy"><figcaption>Inverter installation</figcaption></figure></div></details>
             </div>
           </article>
 
           <article class="project-card" data-category="on-grid" data-search="sulaimane height 19.5 kw 19kw 19.5kw on grid solar pv array inverter protection distribution">
             <figure class="project-cover"><img src="assets/images/19-5kw-array.webp" alt="PV array shown for the Sulaimane Height project" loading="lazy"><figcaption><span class="project-tag">On-grid</span><span class="capacity">19.5 kW*</span></figcaption></figure>
-            <div class="project-body"><p class="project-location">Sulaimane Height</p><h3>PV array and electrical installation</h3><p class="project-summary">On-grid · 19.5 kW in project heading</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Sulaimane Height project photos and installation">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project photographs and notes</summary><p class="detail-note">Source profile: the project heading says 19.5 kW; the subtitle says 19 kW.</p><div class="photo-gallery"><figure><img src="assets/images/19-5kw-site.webp" alt="PV array and surrounding site at Sulaimane Height" loading="lazy"><figcaption>PV array and site</figcaption></figure><figure><img src="assets/images/19-5kw-inverter.webp" alt="Inverter installation" loading="lazy"><figcaption>Inverter installation</figcaption></figure><figure><img src="assets/images/19-5kw-protection.webp" alt="Electrical distribution and protection equipment" loading="lazy"><figcaption>Distribution and protection</figcaption></figure></div></details>
+            <div class="project-body"><p class="project-location">Sulaimane Height</p><h3>PV array &amp; electrical installation</h3><p class="project-summary">On-grid · 19.5 kW in project heading</p>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Sulaimane Height project photos and installation">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-195kw">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-195kw"><summary>Project photographs and notes</summary><p class="detail-note">Source profile: the project heading says 19.5 kW; the subtitle says 19 kW.</p><div class="photo-gallery"><figure><img src="assets/images/19-5kw-site.webp" alt="PV array and surrounding site at Sulaimane Height" loading="lazy"><figcaption>PV array and site</figcaption></figure><figure><img src="assets/images/19-5kw-inverter.webp" alt="Inverter installation" loading="lazy"><figcaption>Inverter installation</figcaption></figure><figure><img src="assets/images/19-5kw-protection.webp" alt="Electrical distribution and protection equipment" loading="lazy"><figcaption>Distribution and protection</figcaption></figure></div></details>
             </div>
           </article>
 
           <article class="project-card" data-category="on-grid" data-search="wabarhenan city 8.6 kw 8.6kw on grid solar rooftop pv array layout mechanical structure">
             <figure class="project-cover"><img src="assets/images/8-6kw-array.webp" alt="PV array layout for the Wabarhenan City project" loading="lazy"><figcaption><span class="project-tag">On-grid</span><span class="capacity">8.6 kW</span></figcaption></figure>
-            <div class="project-body"><p class="project-location">Wabarhenan City</p><h3>Rooftop array and structure</h3><p class="project-summary">On-grid · 8.6 kW</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Wabarhenan City project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project photographs and notes</summary><p class="detail-note">The profile includes the PV array layout, rooftop PV system and mechanical structure.</p><div class="photo-gallery"><figure><img src="assets/images/8-6kw-rooftop.webp" alt="Rooftop PV system in Wabarhenan City" loading="lazy"><figcaption>Rooftop PV system</figcaption></figure><figure><img src="assets/images/8-6kw-structure.webp" alt="Mechanical structure in Wabarhenan City" loading="lazy"><figcaption>Mechanical structure</figcaption></figure></div></details>
+            <div class="project-body"><p class="project-location">Wabarhenan City</p><h3>Rooftop array &amp; structure</h3><p class="project-summary">On-grid · 8.6 kW</p>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Wabarhenan City project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-86kw">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-86kw"><summary>Project photographs and notes</summary><p class="detail-note">The profile includes the PV array layout, rooftop PV system and mechanical structure.</p><div class="photo-gallery"><figure><img src="assets/images/8-6kw-rooftop.webp" alt="Rooftop PV system in Wabarhenan City" loading="lazy"><figcaption>Rooftop PV system</figcaption></figure><figure><img src="assets/images/8-6kw-structure.webp" alt="Mechanical structure in Wabarhenan City" loading="lazy"><figcaption>Mechanical structure</figcaption></figure></div></details>
             </div>
           </article>
 
           <article class="project-card" data-category="hybrid" data-search="mergapan 5.2 kw 5.2kw hybrid battery storage solar pv array inverter">
             <figure class="project-cover"><img src="assets/images/5-2kw-site.webp" alt="Solar PV array at the Mergapan hybrid project" loading="lazy"><figcaption><span class="project-tag">Hybrid</span><span class="capacity">5.2 kW</span></figcaption></figure>
             <div class="project-body"><p class="project-location">Mergapan</p><h3>Hybrid project</h3><p class="project-summary">Hybrid · 5.2 kW</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Mergapan project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project photographs and notes</summary><p class="detail-note">The profile shows the PV array and inverter and battery installation.</p><div class="photo-gallery"><figure><img src="assets/images/5-2kw-array.webp" alt="PV array view at the Mergapan project" loading="lazy"><figcaption>PV array</figcaption></figure><figure><img src="assets/images/5-2kw-inverter-battery.webp" alt="Inverter and battery installation at Mergapan" loading="lazy"><figcaption>Inverter and battery installation</figcaption></figure></div></details>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View Mergapan project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-mergapan">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-mergapan"><summary>Project photographs and notes</summary><p class="detail-note">The profile shows the PV array and inverter and battery installation.</p><div class="photo-gallery"><figure><img src="assets/images/5-2kw-array.webp" alt="PV array view at the Mergapan project" loading="lazy"><figcaption>PV array</figcaption></figure><figure><img src="assets/images/5-2kw-inverter-battery.webp" alt="Inverter and battery installation at Mergapan" loading="lazy"><figcaption>Inverter and battery installation</figcaption></figure></div></details>
             </div>
           </article>
 
           <article class="project-card" data-category="on-grid" data-search="german village 15.2 kw two projects two systems rooftop on-grid solar pv">
             <figure class="project-cover"><img src="assets/images/german-village-roof-a.webp" alt="Aerial view of rooftop solar panels in German Village" loading="lazy"><figcaption><span class="project-tag">On-grid · two projects</span><span class="capacity">15.2 kW</span></figcaption></figure>
             <div class="project-body"><p class="project-location">German Village</p><h3>Two on-grid projects</h3><p class="project-summary">15.2 kW as stated for the two projects</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View German Village project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project photographs and notes</summary><p class="detail-note">The source profile lists two on-grid projects and states 15.2 kW; separate ratings are not given.</p><div class="photo-gallery"><figure><img src="assets/images/german-village-roof-b.webp" alt="Another aerial view of the German Village rooftop systems" loading="lazy"><figcaption>Rooftop PV layout</figcaption></figure></div></details>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View German Village project photos">View photos <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-german">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-german"><summary>Project photographs and notes</summary><p class="detail-note">The source profile lists two on-grid projects and states 15.2 kW; separate ratings are not given.</p><div class="photo-gallery"><figure><img src="assets/images/german-village-roof-b.webp" alt="Another aerial view of the German Village rooftop systems" loading="lazy"><figcaption>Rooftop PV layout</figcaption></figure></div></details>
             </div>
           </article>
 
           <article class="project-card engineering-card" data-category="engineering" data-search="900 kw 900kw line diagram on grid electrical design documentation engineering sample drawing">
             <figure class="project-cover diagram-cover"><img src="assets/images/900kw-line-diagram.webp" alt="Line diagram shown in the company profile for a 900 kW on-grid system" loading="lazy"><figcaption><span class="project-tag">Engineering sample</span><span class="capacity">900 kW</span></figcaption></figure>
             <div class="project-body"><p class="project-location">Engineering documentation</p><h3>On-grid line diagram</h3><p class="project-summary">Line diagram example listed in the company profile.</p>
-              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View the 900 kW on-grid line diagram">View drawing <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false">Project info <span aria-hidden="true">+</span></button></div>
-              <details class="project-details"><summary>Project note</summary><p class="detail-note">The profile describes a line diagram of a 900 kW on-grid system. It is shown as an engineering-documentation example.</p></details>
+              <div class="project-actions"><button class="project-photo-button" type="button" data-open-cover aria-label="View the 900 kW on-grid line diagram">View drawing <span aria-hidden="true">↗</span></button><button class="project-info-button" type="button" data-toggle-info aria-expanded="false" aria-controls="project-info-900kw">Project info <span aria-hidden="true">+</span></button></div>
+              <details class="project-details" id="project-info-900kw"><summary>Project note</summary><p class="detail-note">The profile describes a line diagram of a 900 kW on-grid system. It is shown as an engineering-documentation example.</p></details>
             </div>
           </article>
         </div>
         <div class="no-results" id="no-results" hidden>
-          <h3>No matching portfolio items</h3>
-          <p>Try another location, capacity or project type.</p>
-          <button class="button button-outline" id="reset-search" type="button">Show all</button>
+          <span class="no-results-mark" aria-hidden="true">—</span><h3>No matching portfolio items</h3><p>Try another location, capacity or project type.</p><button class="button button-outline" id="reset-search" type="button">Show all projects</button>
         </div>
         <p class="portfolio-footnote">*The project heading and subtitle show different capacity figures. See the note under each relevant project.</p>
       </div>
     </section>
 
-    <section class="section section-white" id="process" aria-labelledby="process-heading">
+    <section class="section services-section" id="services" aria-labelledby="services-heading">
       <div class="page-width">
-        <div class="section-header">
-          <div><p class="eyebrow">Design workflow</p><h2 id="process-heading">Project workflow</h2></div>
-          <p class="section-intro">Load calculation, concept and layout, mechanical / 3D design, BOQ and documentation, implementation.</p>
+        <div class="section-heading services-heading">
+          <div><p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Services &amp; technical capabilities</p><h2 id="services-heading">The work behind<br><span>the installation.</span></h2></div>
+          <p class="section-intro">Engineering expertise, field experience and professional technical documentation—across design, preparation and implementation.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-topline"><span class="service-number">01</span><span class="service-track">DESIGN</span></div><h3>Solar PV design</h3><p>PV layout and system planning for on-grid applications.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-card"><div class="service-topline"><span class="service-number">02</span><span class="service-track">STRUCTURE</span></div><h3>Mechanical structure design</h3><p>AutoCAD-based drawings for solar-panel support structures.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-card"><div class="service-topline"><span class="service-number">03</span><span class="service-track">VISUALIZATION</span></div><h3>3D modeling</h3><p>SketchUp models to communicate structure and installation concepts.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-card"><div class="service-topline"><span class="service-number">04</span><span class="service-track">DOCUMENTATION</span></div><h3>BOQ preparation</h3><p>Project quantity documentation for procurement and planning.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-card"><div class="service-topline"><span class="service-number">05</span><span class="service-track">DELIVERY</span></div><h3>Implementation</h3><p>Practical delivery of solar PV projects documented in the portfolio.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-card"><div class="service-topline"><span class="service-number">06</span><span class="service-track">SYSTEMS</span></div><h3>System configuration</h3><p>Configuration work supporting functional PV system deployment.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process" aria-labelledby="process-heading">
+      <div class="page-width">
+        <div class="section-heading process-heading">
+          <div><p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Design workflow</p><h2 id="process-heading">From calculation<br>to configuration.</h2></div>
+          <p class="section-intro">Project workflow listed in the company profile.</p>
         </div>
         <ol class="process-list">
-          <li><span class="step-number">1</span><h3>Load calculation</h3></li>
-          <li><span class="step-number">2</span><h3>Concept &amp; layout</h3></li>
-          <li><span class="step-number">3</span><h3>Mechanical / 3D design</h3></li>
-          <li><span class="step-number">4</span><h3>BOQ &amp; documentation</h3></li>
-          <li><span class="step-number">5</span><h3>Implementation &amp; configuration</h3></li>
+          <li><span class="step-number">01</span><span class="step-line" aria-hidden="true"></span><h3>Load calculation</h3></li>
+          <li><span class="step-number">02</span><span class="step-line" aria-hidden="true"></span><h3>Concept &amp; layout</h3></li>
+          <li><span class="step-number">03</span><span class="step-line" aria-hidden="true"></span><h3>Mechanical / 3D design</h3></li>
+          <li><span class="step-number">04</span><span class="step-line" aria-hidden="true"></span><h3>BOQ &amp; documentation</h3></li>
+          <li><span class="step-number">05</span><span class="step-line" aria-hidden="true"></span><h3>Implementation &amp; configuration</h3></li>
         </ol>
       </div>
     </section>
 
     <section class="section engineering-section" id="engineering" aria-labelledby="engineering-heading">
       <div class="page-width">
-        <div class="section-header">
-          <div><p class="eyebrow">Design &amp; documentation</p><h2 id="engineering-heading">Engineering samples</h2></div>
-          <p class="section-intro">Mechanical drawings, layout details and 3D structural visualizations included in the company profile.</p>
+        <div class="section-heading engineering-heading">
+          <div><p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Design &amp; documentation</p><h2 id="engineering-heading">Engineering samples.</h2></div>
+          <p class="section-intro">Mechanical drawings, layout details and 3D structural visualizations included in the company profile. Select an image to enlarge it.</p>
         </div>
         <div class="engineering-grid">
-          <figure><img src="assets/images/mechanical-drawing.webp" alt="Mechanical drawing for a solar panel support design" loading="lazy"><figcaption>Mechanical drawing</figcaption></figure>
-          <figure><img src="assets/images/layout-detail.webp" alt="PV layout and mechanical detail drawing" loading="lazy"><figcaption>Mechanical / layout detail</figcaption></figure>
-          <figure><img src="assets/images/pv-3d-design.webp" alt="Three-dimensional solar PV structure drawing" loading="lazy"><figcaption>3D drawing</figcaption></figure>
-          <figure><img src="assets/images/structure-3d-view.webp" alt="Three-dimensional visualization of a solar-panel structure" loading="lazy"><figcaption>3D / installation visualization</figcaption></figure>
+          <figure><img src="assets/images/mechanical-drawing.webp" alt="Mechanical drawing for a solar panel support design" loading="lazy"><figcaption><span>01</span> Mechanical drawing</figcaption></figure>
+          <figure><img src="assets/images/layout-detail.webp" alt="PV layout and mechanical detail drawing" loading="lazy"><figcaption><span>02</span> Mechanical / layout detail</figcaption></figure>
+          <figure><img src="assets/images/pv-3d-design.webp" alt="Three-dimensional solar PV structure drawing" loading="lazy"><figcaption><span>03</span> 3D drawing</figcaption></figure>
+          <figure><img src="assets/images/structure-3d-view.webp" alt="Three-dimensional visualization of a solar-panel structure" loading="lazy"><figcaption><span>04</span> 3D / installation visualization</figcaption></figure>
         </div>
       </div>
     </section>
 
-    <section class="section section-white" id="about" aria-labelledby="about-heading">
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
       <div class="page-width about-layout">
-        <div><p class="eyebrow">Profile</p><h2 id="about-heading">Suly Electric</h2></div>
+        <div class="about-lead"><p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Company profile</p><h2 id="about-heading">Suly<br>Electric<span class="heading-period">.</span></h2><div class="about-mark" aria-hidden="true">S</div></div>
         <div class="about-copy">
           <p>Suly Electric focuses on solar PV design and implementation, combining engineering expertise, field experience, and professional technical documentation. Our work is carried out under the supervision of qualified engineers, ensuring proper design, installation, commissioning, and system configuration.</p>
           <p>With experience in installing numerous solar PV systems, Suly Electric provides solutions for both on-grid and hybrid applications, supported by mechanical and 3D design, detailed engineering documentation, and system configuration. Ongoing technical support and follow-up are provided to ensure reliable system performance and long-term operation.</p>
-          <div class="engineer-profile"><strong>Miran Hama Rahim Saeed</strong><span>BSc Eng, MSc Eng</span><span>Consultant Electrical Engineer</span></div>
+          <div class="engineer-profile"><span class="profile-rule" aria-hidden="true"></span><div><strong>Miran Hama Rahim Saeed</strong><span>BSc Eng, MSc Eng</span><span>Consultant Electrical Engineer</span></div></div>
         </div>
       </div>
     </section>
 
     <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-ornament" aria-hidden="true"></div>
       <div class="page-width contact-layout">
-        <div><p class="eyebrow">Contact</p><h2 id="contact-heading">Contact Suly Electric</h2><p>Suly Electric provides solar PV design and implementation supported by engineering documentation, mechanical design, 3D modeling, BOQ preparation and system configuration.</p></div>
-        <div class="contact-card">
-          <div class="contact-actions"><a class="contact-action primary" href="tel:7733999682">Call 773 399 9682</a><a class="contact-action secondary" href="mailto:Sulyelectric@gmail.com">Email Suly Electric</a></div>
-          <div class="contact-row"><span class="contact-label">Email</span><a href="mailto:Sulyelectric@gmail.com">Sulyelectric@gmail.com</a></div>
-          <div class="contact-row"><span class="contact-label">Phone</span><a href="tel:7733999682">773 399 9682</a></div>
-          <div class="contact-row"><span class="contact-label">Contact</span><span>Miran Hama Rahim Saeed<br><small>Consultant Electrical Engineer</small></span></div>
-        </div>
+        <div class="contact-copy"><p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Contact</p><h2 id="contact-heading">Contact<br><span>Suly Electric.</span></h2><p>Suly Electric provides solar PV design and implementation supported by engineering documentation, mechanical design, 3D modeling, BOQ preparation and system configuration.</p><div class="contact-actions"><a class="contact-action primary" href="tel:7733999682"><span>Call Suly Electric</span><b>773 399 9682</b><i aria-hidden="true">↗</i></a><a class="contact-action secondary" href="mailto:Sulyelectric@gmail.com"><span>Email</span><b>Sulyelectric@gmail.com</b><i aria-hidden="true">↗</i></a></div></div>
+        <div class="contact-side"><div class="contact-card-label"><span>DIRECT CONTACT</span><span class="contact-dot" aria-hidden="true"></span></div><div class="contact-row"><span class="contact-label">Phone</span><a href="tel:7733999682">773 399 9682</a></div><div class="contact-row"><span class="contact-label">Email</span><a href="mailto:Sulyelectric@gmail.com">Sulyelectric@gmail.com</a></div><div class="contact-row"><span class="contact-label">Contact</span><span>Miran Hama Rahim Saeed<br><small>Consultant Electrical Engineer</small></span></div></div>
       </div>
     </section>
   </main>
 
   <dialog class="image-lightbox" id="image-lightbox" aria-labelledby="lightbox-caption">
-    <div class="lightbox-topbar">
-      <p class="lightbox-caption" id="lightbox-caption">Portfolio image</p>
-      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image viewer">Close</button>
-    </div>
-    <div class="lightbox-stage" id="lightbox-stage">
-      <button class="lightbox-nav-button previous" id="lightbox-previous" type="button" aria-label="Previous photo">‹</button>
-      <img class="lightbox-image" id="lightbox-image" alt="">
-      <button class="lightbox-nav-button next" id="lightbox-next" type="button" aria-label="Next photo">›</button>
-    </div>
-    <div class="lightbox-bottombar">
-      <div class="zoom-controls" aria-label="Image zoom controls">
-        <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out">−</button>
-        <output id="zoom-level" aria-live="polite">100%</output>
-        <button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in">+</button>
-        <button class="zoom-fit" id="zoom-fit" type="button">Fit to screen</button>
-        <output class="lightbox-counter" id="lightbox-counter" aria-live="polite">1 / 1</output>
-      </div>
-      <p class="lightbox-hint">Use the arrows to browse · Zoom with + / − · Esc to close</p>
-    </div>
+    <div class="lightbox-topbar"><p class="lightbox-caption" id="lightbox-caption">Portfolio image</p><button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image viewer">Close <span aria-hidden="true">×</span></button></div>
+    <div class="lightbox-stage" id="lightbox-stage"><button class="lightbox-nav-button previous" id="lightbox-previous" type="button" aria-label="Previous photo">‹</button><img class="lightbox-image" id="lightbox-image" alt=""><button class="lightbox-nav-button next" id="lightbox-next" type="button" aria-label="Next photo">›</button></div>
+    <div class="lightbox-bottombar"><div class="zoom-controls" aria-label="Image zoom controls"><button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out">−</button><output id="zoom-level" aria-live="polite">100%</output><button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in">+</button><button class="zoom-fit" id="zoom-fit" type="button">Fit to screen</button><output class="lightbox-counter" id="lightbox-counter" aria-live="polite">1 / 1</output></div><p class="lightbox-hint">Use arrows to browse · + / − to zoom · Esc to close</p></div>
   </dialog>
 
-  <footer class="site-footer">
-    <div class="page-width footer-main">
-      <a class="footer-logo" href="#top" aria-label="Suly Electric, back to top"><img src="assets/images/suly-electric-logo.webp" alt="Suly Electric" width="534" height="235"></a>
-      <p>Solar PV design &amp; implementation</p>
-      <a href="#top">Back to top ↑</a>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="page-width footer-main"><a class="footer-logo" href="#top" aria-label="Suly Electric, back to top"><img src="assets/images/suly-electric-logo.webp" alt="Suly Electric" width="534" height="235"></a><p>Solar PV design &amp; implementation</p><a class="footer-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
 </body>
 </html>
