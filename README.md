@@ -1,32 +1,31 @@
-# Suly Electric portfolio website
+# Suly Electric website
 
-This folder contains the responsive Suly Electric portfolio website. It uses the logo image you provided and the project photographs and design samples included in the company profile.
+**Live website:** https://suly-electric.github.io/
 
-## Files
+This is the Suly Electric solar PV design and implementation portfolio. The site uses the supplied Suly Electric logo and the project photographs and engineering samples from the company profile.
 
-- `index.html` — website content
-- `styles.css` — page layout and responsive design
-- `script.js` — project search, filters and phone navigation
-- `assets/images/` — Suly Electric logo and portfolio images
-- `assets/favicon.png` — browser-tab icon taken from the logo
+## What visitors can do
 
-## Project directory
+- Search and filter the project directory.
+- Open portfolio photos and engineering drawings in a full-screen viewer, then zoom in or fit the image to the screen.
+- Switch between light and dark appearance. The selected theme is remembered in that browser.
+- Call **773 399 9682** from the phone links.
 
-On the website, search by project location, capacity or type. Use the buttons to filter by on-grid, hybrid or engineering sample. Select **Project photographs and notes** to open the related images and source details.
+## Main files
 
-## Publish with GitHub Pages
+- `index.html` — words, sections and project cards.
+- `styles.css` — colors, layout and light/dark appearance.
+- `script.js` — mobile menu, project search, photo viewer and theme switch.
+- `assets/images/` — logo, portfolio photos and drawings.
 
-GitHub Pages makes the site public. On GitHub Free, the repository must be public. Make sure the phone and email, engineer name, project locations, photographs and drawings in the profile are okay to share publicly.
+## How an update goes live
 
-1. Sign in at [GitHub](https://github.com/) and select **New repository**.
-2. Name it `suly-electric-portfolio`, select **Public**, and choose **Create repository**.
-3. On the repository page, select **Add file → Upload files**.
-4. Drag in `index.html`, `styles.css`, `script.js`, `README.md` and the entire `assets` folder. Keep the folder structure as it is.
-5. Select **Commit changes**.
-6. Open **Settings → Pages**. Select **Deploy from a branch**, then choose branch `main` and folder `/(root)`. Select **Save**.
-7. After GitHub finishes publishing, open **Settings → Pages** and choose **Visit site**. The address will look like `https://YOUR-GITHUB-NAME.github.io/suly-electric-portfolio/`.
+GitHub Pages publishes the site from the `main` branch and the top-level folder (`/(root)`). When a change is committed to `main`, GitHub usually publishes it within a few minutes. No separate Publish button is needed.
 
-GitHub Pages may take a few minutes to publish the first time. Later file changes can be uploaded and committed to publish an update.
+For a small change, open the file in the GitHub repository and use its pencil **Edit** button. For a safer practice, create a separate branch, make the change there, then merge it into `main` when ready. A merge to `main` publishes the update.
 
+Adding a project means placing its photos in `assets/images/` and adding a matching project card in `index.html` with accurate details, image descriptions and search terms. If you are still learning, make a practice branch first or ask for help before changing the live version.
 
-Official instructions: [GitHub Pages quickstart](https://docs.github.com/en/pages/quickstart).
+## Repository
+
+https://github.com/suly-electric/suly-electric.github.io
